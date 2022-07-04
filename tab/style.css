@@ -1,0 +1,20 @@
+#tab {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.tab__menu {
+  display: flex;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+  padding: 5px 50px;
+  border: 1px solid rgb(240, 236, 236);
+}
+li.active {
+  background-color: #000;
+  color: #fff;
+}
